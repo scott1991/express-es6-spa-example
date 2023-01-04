@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./server/bin/www.js",
     "install-spa": "npm install --prefix spa_src/",
-    "build-spa": "npm build --prefix spa_src/",
+    "build-spa": "npm run build --prefix spa_src/",
     "spa": "npm start --prefix spa_src/",
     "dev": "npm-run-all --parallel start spa",
     "install-server": "npm install",
