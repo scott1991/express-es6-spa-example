@@ -11,7 +11,7 @@ git init
 npm init
 ```
 
-Add react spa
+Add React SPA
 ---------------
 ```sh
 sh create_reactSPA.sh
